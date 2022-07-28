@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+:root{
+
+    --color-global: #1293D4;
+    --color-global1: #24282B;
+    --color-global3: #E8491D;
+}
+
+.container{
+
+    background: var(--color-global1);
+    border-bottom: 5px solid var(--color-global);
+
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.container nav ul {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.container nav ul li {
+    list-style: none;
+}
+
+.container nav ul li > .items_links2, .items_links3, .items_links4{
+
+    color: white;
+    text-decoration: none;
+    margin: 20px 30px;
+    display: inline-block;
+}
+.title h1{
+     
+    color: white;
+
+
+}
+.title h1 span {
+    
+    color: var(--color-global);
+}
+nav ul  li .items_links1{
+    color: var(--color-global);
+    text-decoration: none;
+
+}
+.hero-header{
+
+    background-image: url("../image/cabecera.jpg");
+    height: 54vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-origin:padding-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-header h1{
+
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+.hero-header p{
+
+    max-width: 1200px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.10rem;
+    line-height: -17px;
+    letter-spacing: 0.004rem;
+}
+.content{
+
+}
+.sub-atract{
+    background: var(--color-global1);
+
+}
+
+.suscripcion-text{
+    
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-p p{
+
+    color: #fff;
+    margin: 27px 0;
+    display: block;
+    font-size: 1.60rem;
+    font-weight: bold;
+}
+.input-subs input, button{
+
+    padding: 8px;
+    border: none;
+}
+.input-subs input{
+
+    width: 250px;
+
+}
+.input-subs button{
+    background: var(--color-global3);
+    color: #fff;
+    cursor: pointer;
+}
+.cards-herramientas{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+}
+.cards-herramientas .card{
+
+  
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card .picture img{
+
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cards-herramientas .card h2, p{
+
+    text-align: center;
+    display: block;
+}
+.card h2{
+    margin: 10px;
+}
+
+footer{
+    margin-top: 40px;
+    background: var(--color-global);
+}
+
+footer p{
+    padding: 20px;
+    color: #fff;
+}
+.content-text{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content-first article h2{
+
+    margin: 20px 0;
+
+}
+
+.left-parrafo article{
+
+    background: #242f3b;
+    color: white;
+    margin-top: 2rem;
+    padding: 10px;
+    margin-left: 40px;
+}
+.parrafo-second{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #242f3b;
+
+    color: #fff;
+    padding: 20px;
+}
+.parrafo-second p{
+
+    text-align: start;
+}
+.left-parrafo article h2{
+
+    display: block;
+    margin: 20px;
+    font-size: 19px;
+}
+.left-parrafo article p{
+
+    display: block;
+    text-align: start;
+    margin: 20px;
+}
+.content-first{
+    max-width: 47rem;
+}
+/* */
