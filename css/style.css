@@ -202,7 +202,7 @@ footer p{
     background: #242f3b;
 
     color: #fff;
-    padding: 20px;
+    padding: 30px;
 }
 .parrafo-second p{
 
@@ -223,4 +223,134 @@ footer p{
 .content-first{
     max-width: 47rem;
 }
+.image picture img{
+
+    max-width: 47rem;
+    height: 15rem;
+}
+footer .text-footer{
+
+    padding: 3rem;
+}
+.section1{
+
+    border: 2px solid rgb(227, 227, 227);
+    margin: 20px;
+    padding: 10px;
+    background: #eee;
+    
+}
+.content-first{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.text-serv{
+
+    margin: 20px;
+}
+.fry{
+
+    margin: 20px;
+}
+.section1 p{
+
+    text-align: start;
+    margin: 20px;
+}
+.uytt{
+    padding: 0px;
+}
+.first{
+
+    width: 60%;
+}
+.content-ki{
+
+    width: 40%;
+    margin-left: 30px;
+}
+.content-provider{
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.first .inputs{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.first .inputs label{
+    margin: 5px 0px;
+
+}
+
+.first .inputs input{
+
+    padding: 9px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #aeaeae;
+}
+.first .inputs input:focus{
+    border: 1px solid #E8491D;
+    box-shadow: 0px 1px 4px #E8491D;
+}
+.first .inputs textarea{
+    margin: 10px 0px ;
+    padding: 9px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #aeaeae;
+}
+.first .inputs textarea:focus{
+
+    border: 1px solid #E8491D;
+    box-shadow: 0px 1px 4px #E8491D;
+}
+.first .inputs button{
+    background: var(--color-global3);
+    padding: 10px;
+    color: #fff;
+    border: 1px solid var(--color-global3);
+    cursor: pointer;
+}
+.first .inputs button:hover{
+
+    background: #f25428;
+}
+.first form h1{
+
+    margin: 10px 0px;
+}
+.content-ki article{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #242f3b;
+
+    color: #fff;
+    padding: 30px;
+
+}
+.content-ki article h2 {
+    margin: 10px;
+
+}
+.content-ki article p {
+    margin: 10px;
+    text-align: start;
+
+}
+.content-ki picture  img{
+   width: 100%;
+
+}
+
+
+
 /* */
