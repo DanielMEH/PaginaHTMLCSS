@@ -53,6 +53,27 @@
 
 
 }
+
+
+@media screen and (max-width: 583px) {
+
+    .container nav ul li > .items_links2, .items_links3, .items_links4{
+
+        color: white;
+        text-decoration: none;
+        margin: 10px 30px;
+        display: inline-block;
+    }
+    .container nav ul li > .items_links2, .items_links3, .items_links4{
+
+        color: white;
+        text-decoration: none;
+        margin: 15px 15px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+}
 .title h1 span {
     
     color: var(--color-global);
@@ -350,7 +371,118 @@ footer .text-footer{
    width: 100%;
 
 }
+@media screen and (max-width: 1263px) {
+  
+    .title h1{
+     
+        margin: 0px 15px;
+    
+    
+    }
+    .input-subs input, button{
 
+        padding: 8px;
+        border: none;
+        margin: 10px;
+    }
+    .nav{
+    
+        display: flex;
+        justify-content: space-between;
+        
+        max-width: 1200px;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    .text-p p{
 
+        color: #fff;
+        margin: 27px 10px;
+        display: block;
+        font-size: 1.60rem;
+        font-weight: bold;
+    }
+    
+}
+@media screen and (max-width: 899px) {
+  
+    .title h1{
+     
+        margin: 8px 15px;
+    
+    
+    }
+    .nav{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 1200px;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    .hero-header h1{
+
+        font-size: 4rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: white;
+        margin: 0rem  2rem;
+    }
+    .hero-header p{
+    
+        max-width: 1200px;
+        text-align: start;
+        margin-top: 2rem;
+        color: #fff;
+        font-size: 1.10rem;
+        line-height: -17px;
+        letter-spacing: 0.004rem;
+        margin: 0rem 2rem;
+    }
+    
+}
+@media screen and (max-width: 560px) {
+    .hero-header{
+
+        width: 100%;
+    }
+    .hero-header h1{
+
+        font-size: 2.4rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0.20rem  2rem;
+    }
+    .hero-header p{
+    
+        max-width: 1200px;
+        text-align: center;
+        margin-top: 2rem;
+        color: #fff;
+        font-size: 1.10rem;
+        line-height: -17px;
+        letter-spacing: 0.004rem;
+        margin: 0rem 2rem;
+    }
+    
+}
+@media screen and (max-width: 789px){
+
+    .suscripcion-text{
+    
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
 
 /* */
